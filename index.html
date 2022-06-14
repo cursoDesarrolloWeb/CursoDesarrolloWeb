@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+</head>
+
+<body>
+
+    <!-- VIDEO-01 manejo de etiquetas - -->
+
+    <header>
+        <h1>HOLA MUNDO</h1>
+    </header>
+    <hr>  
+    <nav>
+        <h2>inicio</h2>
+        <h2>productos</h2>
+        <h2>galeria</h2>
+        <h2>contactanos</h2>
+    </nav>
+    <hr>
+    <div>
+        <section>
+            <div>
+                <h2>producto 1</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eius ipsa velit nobis ducimus repellendus quisquam animi culpa dolorem aspernatur itaque dolorum iste iure, enim laborum quis, amet perspiciatis harum?</h3>
+            </div>
+            <div>
+                <h2>producto 1</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eius ipsa velit nobis ducimus repellendus quisquam animi culpa dolorem aspernatur itaque dolorum iste iure, enim laborum quis, amet perspiciatis harum?</h3>
+            </div>
+            
+            <div>
+                <h2>producto 1</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est eius ipsa velit nobis ducimus repellendus quisquam animi culpa dolorem aspernatur itaque dolorum iste iure, enim laborum quis, amet perspiciatis harum?</h3>
+            </div>
+        </section>
+        <hr>
+        <aside>
+            <div>
+                <h2>oferta 1</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h3>
+            </div>
+            <div>
+                <h2>oferta 1</h2>
+                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h3>
+            </div>
+        </aside>
+        <hr>
+    </div>
+<footer>
+    <h2>contactanos</h2>
+</footer>
+
+<hr>
+
+
+
+
+
+    <!-- VIDEO-02 listas desordenada-->
+    <ul>
+        <li>franelas</li>
+        <li>zapatos</li>
+        <li>pantalones</li>
+    </ul>
+    <hr>
+
+    <!--listas ordenadas -->
+     <ol>
+        <li>franelas</li>
+        <li>zapatos</li>
+        <li>pantalones</li>
+    </ol> 
+    <hr>
+
+    <!-- estilos para ver mas graficamente las tablas, no preocuparse por esto -->
+     <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style> 
+
+    <!-- VIDEO-03 tablas -->
+     <table>
+        <tr>
+            <td>franelas</td>
+            <td>zapatos</td>
+        </tr>
+        <tr>
+            <td>20</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+    </table> 
+    <hr>
+
+<br><br><br><br><br> 
+
+    <!-- VIDEO-04 formularios -->
+
+    <form>
+        <label>nombre</label>
+        <input placeholder="Nombre" type="text">
+        <label>edad</label>
+        <input placeholder="Edad" type="number">
+        <input type="submit" value="enviar">
+        <br>
+        <input placeholder="intrude tu email" type="email">
+        <input placeholder="introduce tu clave" type="password">
+        <br><br><br>
+        <textarea cols="50" rows="20"></textarea>
+        <br>
+        <input type="submit" value="enviar formulario">
+        <input type="reset" value="limpiar formulario">
+    </form> 
+
+     <br><br><br>
+     <hr>
+
+       <!-- VIDEO-05 formularios -->
+
+    <form action="">
+        <div>franelas</div>
+        <input type="radio">
+        <div>zapatos</div>
+        <input type="radio">
+        <div>pantalones</div>
+        <input type="radio">
+    </form>
+    
+    <br><br><br> 
+
+     <form action="">
+        <div>franelas</div>
+        <input type="checkbox">
+        <div>zapatos</div>
+        <input type="checkbox">
+        <div>pantalones</div>
+        <input type="checkbox">
+    </form>
+    <br><br><br>
+
+    <form action="">
+        <select name="tallas" id="">
+            <option value="L">M</option>
+            <option value="L">L</option>
+            <option value="L">XL</option>
+            <option value="L">XXL</option>
+
+
+        </select>
+    </form> 
+    <br><br><br><br><br>
+    <hr>
+
+<!-- VIDEO-06 enlaces -->
+
+<div>
+    <a href="#"><h2>home</h2></a>
+    <a href="./vistas/franelas.html"><h2>franelas</h2></a>
+    <a href="./vistas/zapatos.html"><h2>zapatos</h2></a>
+    <a href="./vistas/pantalones.html"><h2>pantalones</h2></a>
+</div> 
+<hr>
+
+<!-- VIDEO-07 Y VIDEO-08 insertar imagenes - audio - video - iframe -->
+
+
+<img src="./imagenes/pantalon.jpg" alt="pantalon">
+
+<audio src="./audio/Rock Sport Energy.mp3" controls></audio>
+
+
+ <!-- estilos para ver mas graficamente las tablas, no preocuparse por esto -->
+<style>
+    video{
+        width: 100%;
+    }
+</style>
+
+<video src="./video/halo.mp4" controls ></video>
+
+<!-- Atributos de la etiqueta <audio>
+    ⦁	Controls: muestra los controles estándar de HTML5 para audio en una página web.
+    ⦁	Autoplay: hace que el audio se reproduzca automáticamente.
+    ⦁	Loop: hace que el audio se repita automáticamente.
+    ⦁	Preload: es usado en el elemento audio para almacenar temporalmente (buffering) archivos de gran tamaño. Este puede tomar uno de 3 valores:
+    "none" no almacena temporalmente el archivo
+    "auto" almacena temporalmente el archivo multimedia
+    "metadata" almacena temporalmente sólo los metadatos del archivo
+    Se pueden especificar múltiples fuentes de archivos usando el elemento <source> con el fin de proporcionar vídeo o audio codificados en formatos diferentes para diferentes navegadores -->
+
+
+
+
+<iframe src="" frameborder="0"></iframe>
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/u7oRIRn3mc4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br><br><br><br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115553.2627499884!2d55.21783241762746!3d25.168145386307735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43348a67e24b%3A0xff45e502e1ceb7e2!2sBurj%20Khalifa!5e0!3m2!1ses!2sar!4v1654831596880!5m2!1ses!2sar" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<br><br><br><br><br>
+
+
+
+
+</body>
+
+</html>
